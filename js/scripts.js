@@ -1,4 +1,4 @@
-function filtrar() {
+function filtrarBuy() {
   var filtro = document.getElementById("filtro").value.toLowerCase();
   var elementos = document.getElementsByClassName("buy");
 
@@ -13,7 +13,8 @@ function filtrar() {
     }
   }
 }
-function filtrar() {
+
+function filtrarRent() {
   var filtro = document.getElementById("filtro").value.toLowerCase();
   var elementos = document.getElementsByClassName("rent");
 
@@ -28,3 +29,4 @@ function filtrar() {
     }
   }
 }
+
